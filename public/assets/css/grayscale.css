@@ -6,8 +6,8 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;;
+  color: black;
   background-color: white;
 }
 html {
@@ -26,7 +26,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 35px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -60,11 +60,11 @@ a:focus {
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   background-color: black;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: black;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
@@ -79,7 +79,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: black;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -103,7 +103,7 @@ a:focus {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .navbar-custom .nav li.active a:hover {
-  color: white;
+  color: black;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -115,20 +115,22 @@ a:focus {
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
-  .navbar-custom.top-nav-collapse {
+  /* .navbar-custom.top-nav-collapse {
     padding: 0;
     background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  }
+  } */
 }
 .intro {
-  display: table;
+ 
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  /* padding: px 0; */
+  
   text-align: center;
-  color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  color: black;
+  /* background: url(...assets/img/DroneFootage.mp4) type="video/mp4"; */
+  /* background: url(../img/droneimage1.jpg) no-repeat bottom center scroll; */
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -162,10 +164,10 @@ a:focus {
   height: 70px;
   margin-top: 15px;
   padding: 7px 16px;
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 100% !important;
   font-size: 40px;
-  color: white;
+  color: black;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -174,7 +176,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
-  color: white;
+  color: black;
   background: rgba(255, 255, 255, 0.1);
 }
 .btn-circle i.animated {
@@ -236,7 +238,7 @@ a:focus {
 
 .btn {
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -299,11 +301,11 @@ body {
 }
 
 .shield-icon {
-  width: 2em;
+  width: 4em;
 }
 
 .navbar {
-  background: #03a9f4;
+  background: grey;
 }
 
 .navbar-brand {
@@ -387,7 +389,7 @@ p {
 .loginmodal {
   text-align: center;
   font-size: 14px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 700;
   height: 36px;
   padding: 0 8px;
@@ -401,7 +403,7 @@ p {
   border: 0px;
   color: #fff;
   text-shadow: 0 1px rgba(0,0,0,0.1); 
-  background-color: #4d90fe;
+  background-color: grey;
   padding: 17px 0px;
   font-size: 14px;
   /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
@@ -411,7 +413,7 @@ p {
   /* border: 1px solid #2f5bb7; */
   border: 0px;
   text-shadow: 0 1px rgba(0,0,0,0.3);
-  background-color: #357ae8;
+  background-color: grey;
   /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
 }
 
