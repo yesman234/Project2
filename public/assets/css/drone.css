@@ -304,3 +304,13 @@ body {
 .control-key ul {
   padding-left: 2em;
 }
+.navbar-nav > li {
+  font-size:18px;
+}
+.system {
+  float:none !important;
+  padding: 1em;
+  padding-bottom: 2em;
+  margin: 0 auto;
+  width: 450px;
+}
